@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shaftech — Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="left">
+        <img class="logo" src="images/logo.png" alt="Shaftech logo">
+        <a class="brand" href="index.html">SHAFTECH</a>
+      </div>
+      <nav class="top-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html" class="active">Products</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="nav-cta">Contact</a>
+      </nav>
+      <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open menu">☰</button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu glass" role="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="container section">
+      <h1 class="section-title animate-fade-up">Products</h1>
+      <p class="intro animate-fade-up delay-100 muted">Our products are built to make data reliable and useful — from ingestion to insights.</p>
+
+      <div class="grid product-grid" style="margin-top:18px;">
+        <article class="card glass animate-fade-up delay-150">
+          <h3>Dakia — Core ETL</h3>
+          <p>Visual design, code hooks, scheduling, monitoring and secure pipelines for production workloads.</p>
+          <ul class="muted">
+            <li>Connectors: MySQL, Postgres, MSSQL, S3, APIs</li>
+            <li>Retries, idempotency & alerts</li>
+            <li>Audit logs & role-based access</li>
+          </ul>
+          <div style="margin-top:12px"><a class="btn-primary" href="contact.html">Request Demo</a></div>
+        </article>
+
+        <article class="card glass animate-fade-up delay-250">
+          <h3>Dakia Connectors Pack</h3>
+          <p>Enterprise adapters for SAP, Oracle, Salesforce and secure corporate integrations.</p>
+          <div style="margin-top:12px"><a class="btn-primary" href="contact.html">Connector Info</a></div>
+        </article>
+
+        <article class="card glass animate-fade-up delay-350">
+          <h3>Dakia Studio</h3>
+          <p>Designer UI to author transforms and preview results before deploying to production.</p>
+          <div style="margin-top:12px"><a class="btn-primary" href="contact.html">Start Trial</a></div>
+        </article>
+
+        <article class="card glass animate-fade-up delay-450">
+          <h3>Shaftech Insights</h3>
+          <p>Dashboards, scheduled reports and alerting built on cleaned datasets from Dakia.</p>
+          <div style="margin-top:12px"><a class="btn-primary" href="contact.html">See Demo</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Shaftech</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
