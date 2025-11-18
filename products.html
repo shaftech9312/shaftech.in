@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -34,9 +37,9 @@
                 <div class="section-header">
                     <h1 class="section-title">Dakia ETL</h1>
                     <p class="section-subtitle">
-                        Dakia is a lightweight ETL and transformation tool that automates your data flow —
-                        converting Excel, JSON, XML, HTML, CSV and API inputs into clean structured outputs using simple reusable templates.
-                        Watch the video to see how easily Dakia handles end-to-end automation.
+                        Dakia is a lightweight ETL and transformation engine designed to automate your entire data journey.
+                        It extracts data from multiple sources, transforms it into your required format, and sends it to any target system —
+                        all using simple reusable templates. Watch the video to see Dakia in action.
                     </p>
                 </div>
             </div>
@@ -48,8 +51,7 @@
                 <div class="section-header">
                     <h2 class="section-title">Video Overview</h2>
                     <p class="section-subtitle">
-                        Watch how Dakia handles multiple transformations with smart mapping, previews and
-                        template-driven automation.
+                        See how Dakia performs transformation, routing, monitoring, and automated workflows with ease.
                     </p>
                 </div>
 
@@ -61,14 +63,51 @@
             </div>
         </section>
 
+        <!-- ETL PROCESS -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Dakia ETL Workflow</h2>
+                    <p class="section-subtitle">
+                        Dakia provides a complete Extract → Transform → Send To pipeline for end-to-end data automation.
+                    </p>
+                </div>
+
+                <div class="grid">
+
+                    <article class="card">
+                        <h3 class="card-title"><i class="bi bi-download card-icon-inline"></i> Extract</h3>
+                        <p class="card-body">
+                            Sources supported: Excel, JSON, XML, CSV, PDF, Text, Databases, APIs and more.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title"><i class="bi bi-gear-wide-connected card-icon-inline"></i> Transform</h3>
+                        <p class="card-body">
+                            Convert data into JSON, XML, HTML, PDF, Text or custom structures using reusable templates.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title"><i class="bi bi-send-check-fill card-icon-inline"></i> Send To</h3>
+                        <p class="card-body">
+                            Output to API, Email, SMS, File System, Database or any external application.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
         <!-- TRANSFORMATION TYPES -->
         <section class="section">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Available Transformations</h2>
                     <p class="section-subtitle">
-                        Dakia supports a wide range of transformations. These are not separate products —
-                        they are all included inside Dakia as flexible reusable templates.
+                        Dakia supports multiple transformation patterns — all bundled into a single engine.
                     </p>
                 </div>
 
@@ -77,71 +116,56 @@
                     <article class="card">
                         <div class="card-pill">Excel → JSON</div>
                         <h3 class="card-title">Excel to JSON</h3>
-                        <p class="card-body">
-                            Convert Excel rows into structured JSON objects with auto-field mapping and preview.
-                        </p>
+                        <p class="card-body">Convert Excel rows into structured JSON objects with auto-mapping.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-pill">JSON → PDF</div>
                         <h3 class="card-title">JSON to PDF</h3>
-                        <p class="card-body">
-                            Use HTML templates to generate PDF documents (invoices, summaries, reports, etc).
-                        </p>
+                        <p class="card-body">Generate PDF output using your own HTML templates.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-pill">JSON → XML</div>
                         <h3 class="card-title">JSON to XML</h3>
-                        <p class="card-body">
-                            Convert JSON documents into XML formats for APIs or system integrations.
-                        </p>
+                        <p class="card-body">Convert JSON to XML for integrations or API requirements.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-pill">Excel → PDF</div>
                         <h3 class="card-title">Excel to PDF</h3>
-                        <p class="card-body">
-                            Convert Excel rows directly into PDF outputs using custom HTML template rendering.
-                        </p>
+                        <p class="card-body">Create printable documents directly from Excel rows.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-pill">CSV → JSON</div>
                         <h3 class="card-title">CSV to JSON</h3>
-                        <p class="card-body">
-                            Transform CSV data into structured JSON objects.
-                        </p>
+                        <p class="card-body">Transform CSV values into clean JSON structures.</p>
                     </article>
 
                     <article class="card">
                         <div class="card-pill">HTML → PDF</div>
                         <h3 class="card-title">HTML to PDF</h3>
-                        <p class="card-body">
-                            Convert any HTML content into a professionally formatted PDF.
-                        </p>
+                        <p class="card-body">Convert HTML templates into high-quality PDF output.</p>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <!-- SCREENSHOTS SECTION -->
+        <!-- SCREENSHOTS -->
         <section class="section">
             <div class="container">
                 <div class="section-header">
                     <h2 class="section-title">Transformation Screenshots</h2>
-                    <p class="section-subtitle">Here are examples from inside Dakia:</p>
+                    <p class="section-subtitle">Live examples from the Dakia UI.</p>
                 </div>
 
-                <!-- Excel → JSON screenshot -->
                 <div class="product-shot">
                     <div class="product-shot-header">
                         <div>
-                            <div class="product-shot-title">Excel → JSON Transformation</div>
-                            <div class="product-shot-sub">
-                                Define JSON structure and auto-map Excel columns directly.
-                            </div>
+                            <div class="product-shot-title">Excel → JSON</div>
+                            <div class="product-shot-sub">Auto-mapping + JSON preview.</div>
                         </div>
                         <span class="product-shot-tag">Template + Preview</span>
                     </div>
@@ -150,14 +174,11 @@
                     </div>
                 </div>
 
-                <!-- JSON → PDF screenshot -->
                 <div class="product-shot">
                     <div class="product-shot-header">
                         <div>
-                            <div class="product-shot-title">JSON → PDF Transformation</div>
-                            <div class="product-shot-sub">
-                                Use HTML-based templates to generate clean PDF output.
-                            </div>
+                            <div class="product-shot-title">JSON → PDF</div>
+                            <div class="product-shot-sub">Using HTML templates to generate PDF.</div>
                         </div>
                         <span class="product-shot-tag">HTML Template Rendering</span>
                     </div>
@@ -169,53 +190,86 @@
             </div>
         </section>
 
-        <!-- FEATURES -->
+        <!-- USE CASES -->
         <section class="section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Key Features of Dakia</h2>
+                    <h2 class="section-title">Where Dakia Excels</h2>
+                    <p class="section-subtitle">Common real-world use cases powered by Dakia.</p>
                 </div>
 
                 <div class="grid">
+
                     <article class="card">
-                        <h3 class="card-title">Template-driven</h3>
-                        <p class="card-body">Build reusable transformation templates once—use them for any input file.</p>
+                        <h3 class="card-title"><i class="bi bi-braces card-icon-inline"></i> API Payload Automation</h3>
+                        <p class="card-body">Transform and generate API payloads for testing or production workflows.</p>
                     </article>
 
                     <article class="card">
-                        <h3 class="card-title">Preview Mode</h3>
-                        <p class="card-body">See how each row transforms before running full batches.</p>
+                        <h3 class="card-title"><i class="bi bi-diagram-3-fill card-icon-inline"></i> Data Synchronization</h3>
+                        <p class="card-body">Keep multiple systems and databases in sync with automated tasks.</p>
                     </article>
 
                     <article class="card">
-                        <h3 class="card-title">Job Monitoring</h3>
-                        <p class="card-body">Track transformation runs, view logs, retry failures, inspect input/output.</p>
+                        <h3 class="card-title"><i class="bi bi-calendar-check card-icon-inline"></i> Job Scheduling</h3>
+                        <p class="card-body">Schedule ETL operations like a full-featured job scheduler.</p>
                     </article>
 
                     <article class="card">
-                        <h3 class="card-title">Runs Anywhere</h3>
-                        <p class="card-body">Use via API, file uploads, schedulers, or integrated in your .NET app.</p>
+                        <h3 class="card-title"><i class="bi bi-envelope-paper-fill card-icon-inline"></i> Email & SMS Services</h3>
+                        <p class="card-body">Send automated emails or SMS by triggering templates via API.</p>
                     </article>
 
                     <article class="card">
-                        <h3 class="card-title">Multi-Format</h3>
-                        <p class="card-body">Excel, JSON, XML, CSV, PDF, HTML — all supported in one unified engine.</p>
+                        <h3 class="card-title"><i class="bi bi-folder-symlink card-icon-inline"></i> Large File Transformations</h3>
+                        <p class="card-body">Process large batches of files in different formats at once.</p>
                     </article>
 
                     <article class="card">
-                        <h3 class="card-title">Lightweight & Fast</h3>
-                        <p class="card-body">Optimized for quick transformations and batch processing.</p>
+                        <h3 class="card-title"><i class="bi bi-diagram-2 card-icon-inline"></i> Conditional Flows</h3>
+                        <p class="card-body">Run decision-based transformation flows directly from the UI.</p>
                     </article>
+
                 </div>
             </div>
         </section>
+
+        <!-- WHY CHOOSE -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose Dakia?</h2>
+                </div>
+
+                <div class="grid">
+
+                    <article class="card">
+                        <h3 class="card-title">Comprehensive</h3>
+                        <p class="card-body">Works with all major formats and destinations out-of-the-box.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title">Efficient</h3>
+                        <p class="card-body">Automates complex workflows and saves engineering time.</p>
+                    </article>
+
+                    <article class="card">
+                        <h3 class="card-title">Scalable</h3>
+                        <p class="card-body">Handles anything from small files to large database feeds.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container footer-inner">
             <span>© 2025 ShafTech. All rights reserved.</span>
-            <span>We transform complexity into clarity</span>
+            <span>We transform complexity into clarity.</span>
         </div>
     </footer>
 
