@@ -1,7 +1,7 @@
 /* ===== Global Reset ===== */
 
 :root {
-    --accent: #f75216; /* Coral */
+    --accent: #ff751f; /* Coral */
     --accent-light: #FFD5CF; /* Light coral for soft backgrounds */
 }
 * {
@@ -434,3 +434,25 @@ a {
     font-size: 1.35rem;
     color: var(--accent);
 }
+
+.brand-area {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.brand-logo {
+    height: 40px;
+}
+
+.brand-text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #111; /* Or your brand color */
+}
+
+/* Remove underline when hovered */
+.brand-area:hover {
+    text-decoration: none;
+}
+
