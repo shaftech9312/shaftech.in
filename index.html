@@ -1,161 +1,89 @@
-<!doctype html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Shaftech — Home</title>
-  <meta name="description" content="Shaftech — Dakia ETL & Products" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>ShafTech – We transform technologies into reality.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- HEADER -->
-  <header class="topbar">
-    <div class="container topbar-inner">
-      <div class="left">
-       <img class="logo" src="images/Copilot_20251117_085827.png" alt="Shaftech logo">
 
-        <a class="brand" href="index.html">SHAFTECH</a>
-      </div>
-
-      <div class="search-wrap glass">
-        <input id="site-search" class="search-input" placeholder="Search products, services, Dakia..." aria-label="Site search" />
-        <button id="search-btn" class="search-btn" type="button">Search</button>
-      </div>
-
-      <nav class="top-nav" aria-label="Main">
-        <a href="products.html" class="nav-link">Products</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-cta">Contact</a>
-        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open menu">☰</button>
-      </nav>
-    </div>
-
-    <!-- mobile menu -->
-    <div id="mobile-menu" class="mobile-menu glass" role="menu">
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </header>
-
-  <!-- HERO -->
-  <main>
-    <section class="hero container">
-      <div class="hero-left glass animate-fade-up">
-        <h1>Dakia — Reliable ETL for modern teams</h1>
-        <p class="lead">Extract, transform and load data with confidence. Scheduling, retries, monitoring, connectors and secure deployments.</p>
-        <div class="hero-actions">
-          <a class="btn-primary" href="products.html">Explore Products</a>
-          <a class="btn-outline" href="services.html">Our Services</a>
-        </div>
-
-        <div class="trust-row">
-          <div class="trust-item">✔ Enterprise-ready</div>
-          <div class="trust-item">✔ 50+ Connectors</div>
-          <div class="trust-item">✔ On-prem & Cloud</div>
-        </div>
-      </div>
-
-      <div class="hero-right glass animate-fade-up delay-200">
-        <div id="carousel" class="carousel">
-          <div class="carousel-track">
-            <div class="slide">
-              <img src="images/50711280-4e3f-45c0-b174-b80e217a1338.png" alt="Dakia ETL interface" />
-              <div class="slide-caption"><strong>Dakia</strong> — ETL Engine</div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand">Shaf<span>Tech</span></a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Products</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
-            <div class="slide">
-              <div class="promo-rect">Shaftech Insights</div>
-              <div class="slide-caption">BI & Reporting</div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ===== Dakia Product Section ===== -->
+        <section class="section fade-in">
+            <div class="container" style="text-align:center;">
+
+                <div class="intro-badge">Our Product</div>
+
+                <h1 class="section-title enhanced-title">Dakia — Transformation Engine</h1>
+
+                <p class="section-subtitle enhanced-subtitle">
+                    Dakia is a lightweight, high-performance ETL and transformation tool that automates your data flow.
+                    Convert Excel, JSON, XML, HTML, CSV or API inputs into clean structured outputs with reusable templates.
+                    <br><br>
+                    Simple to set up. Easy to extend. Powerful in production.
+                </p>
+
+                <div class="underline-accent"></div>
+
+                <!-- Video Demo -->
+                <div style="margin-top:3rem;">
+                    <video controls style="width:80%; border-radius:1rem; box-shadow:0 20px 40px rgba(0,0,0,0.15);">
+                        <source src="assets/Dakia Overview.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <a href="products.html" class="btn btn-primary" style="margin-top:2rem;">Learn More About Dakia</a>
             </div>
-            <div class="slide">
-              <div class="promo-rect">Dakia Studio</div>
-              <div class="slide-caption">Design & Test</div>
+        </section>
+
+
+        <!-- ===== Services Section ===== -->
+        <section class="section fade-in" style="margin-top:2rem;">
+            <div class="container" style="text-align:center;">
+
+                <div class="intro-badge">Our Service</div>
+
+                <h2 class="section-title enhanced-title">Legacy .NET → Modern .NET Core</h2>
+
+                <p class="section-subtitle enhanced-subtitle">
+                    We help enterprises migrate old .NET Framework applications into fast, secure and scalable .NET Core
+                    architectures — with minimal disruption and maximum performance gains.
+                    <br><br>
+                    From assessment to refactoring to deployment automation, we manage the complete modernization lifecycle.
+                </p>
+
+                <div class="underline-accent"></div>
+
+                <a href="services.html" class="btn btn-primary" style="margin-top:2rem;">Explore Modernization Services</a>
             </div>
-          </div>
-          <div class="carousel-nav" style="display:flex; gap:8px; padding:10px;">
-            <button class="carousel-btn" data-i="0" aria-label="Slide 1"></button>
-            <button class="carousel-btn" data-i="1" aria-label="Slide 2"></button>
-            <button class="carousel-btn" data-i="2" aria-label="Slide 3"></button>
-          </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span>© 2025 ShafTech. All rights reserved.</span>
+            <span>We transform technologies into reality.</span>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <!-- Features -->
-    <section class="features container">
-      <h2 class="section-title">Why teams choose Dakia</h2>
-      <div class="grid features-grid">
-        <div class="card glass animate-fade-up delay-100">
-          <h3>Reliable pipelines</h3>
-          <p>Retries, idempotency, monitoring and logs — pipelines you can trust.</p>
-        </div>
-        <div class="card glass animate-fade-up delay-200">
-          <h3>Fast connectors</h3>
-          <p>Databases, Cloud storage, APIs and files — plug & play connectors.</p>
-        </div>
-        <div class="card glass animate-fade-up delay-300">
-          <h3>Secure & scalable</h3>
-          <p>Encryption, RBAC, private-cloud or SaaS deployment options.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Products preview -->
-    <section class="container preview-products">
-      <h3 class="section-subtitle">Featured products</h3>
-      <div class="grid product-grid">
-        <article class="product card glass animate-fade-up delay-100">
-          <h4>Dakia — Core ETL</h4>
-          <p class="muted">Visual pipelines, scheduling, monitoring.</p>
-          <div class="product-actions">
-            <a class="btn-primary" href="products.html">View</a>
-            <a class="btn-outline" href="contact.html">Request Demo</a>
-          </div>
-        </article>
-
-        <article class="product card glass animate-fade-up delay-200">
-          <h4>Dakia Studio</h4>
-          <p class="muted">Design & test transformations before deploy.</p>
-          <div class="product-actions">
-            <a class="btn-primary" href="products.html">View</a>
-            <a class="btn-outline" href="contact.html">Start Trial</a>
-          </div>
-        </article>
-
-        <article class="product card glass animate-fade-up delay-300">
-          <h4>Shaftech Insights</h4>
-          <p class="muted">Dashboards & scheduled reports.</p>
-          <div class="product-actions">
-            <a class="btn-primary" href="products.html">View</a>
-            <a class="btn-outline" href="contact.html">See Demo</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- Footer CTA -->
-    <section class="container footer-cta">
-      <div class="cta-card glass animate-fade-up">
-        <h3>Ready to see Dakia in action?</h3>
-        <p class="muted">Request a demo and one of our engineers will show you how it fits your stack.</p>
-        <a class="btn-primary" href="contact.html">Request Demo</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> Shaftech</div>
-      <div class="small-links">
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
