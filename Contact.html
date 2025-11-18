@@ -2,13 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dakia – Contact</title>
+    <title>Contact – ShafTech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Your CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
+
 <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="container nav-inner">
             <a href="index.html" class="brand">ShafTech</a>
@@ -23,55 +32,75 @@
     </nav>
 
     <main>
-        <section class="section">
+
+        <!-- CONTACT HEADER -->
+        <section class="section fade-in">
             <div class="container">
+
                 <div class="section-header">
                     <h1 class="section-title">Contact Us</h1>
-                    <p class="section-subtitle">
-                        Share a brief about your project or migration need and we’ll get back with suggestions and next steps.
+                    <p class="section-subtitle enhanced-subtitle">
+                        Have questions, need a demo, or want to start your modernization journey?
+                        We're here to help.
                     </p>
                 </div>
 
-                <div class="contact-card">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-field">
-                                <label for="name">Name</label>
-                                <input id="name" type="text" placeholder="Your full name">
-                            </div>
-                            <div class="form-field">
-                                <label for="email">Work email</label>
-                                <input id="email" type="email" placeholder="you@example.com">
-                            </div>
-                        </div>
-
-                        <div class="form-row">
-                            <div class="form-field">
-                                <label for="company">Company</label>
-                                <input id="company" type="text" placeholder="Company name">
-                            </div>
-                            <div class="form-field">
-                                <label for="role">Role</label>
-                                <input id="role" type="text" placeholder="Your role">
-                            </div>
-                        </div>
-
-                        <div class="form-field">
-                            <label for="message">How can we help?</label>
-                            <textarea id="message" rows="5" placeholder="Short description of your use-case or application..."></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Send message</button>
-                    </form>
-                </div>
             </div>
         </section>
+
+        <!-- CONTACT CARDS -->
+        <section class="section fade-in">
+            <div class="container">
+
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+
+                    <!-- EMAIL -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-envelope-fill card-icon-inline"></i>
+                            Email
+                        </h3>
+                        <p class="card-body">
+                            info@shaftech.in
+                        </p>
+                    </article>
+
+                    <!-- PHONE -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-telephone-fill card-icon-inline"></i>
+                            Phone
+                        </h3>
+                        <p class="card-body">
+                            +91 8850671077
+                        </p>
+                    </article>
+
+                    <!-- LOCATION -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-geo-alt-fill card-icon-inline"></i>
+                            Address
+                        </h3>
+                        <p class="card-body">
+                            Mumbai, Mira Road, Maharashtra
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT FORM -->
+
     </main>
 
+    <!-- FOOTER -->
     <footer class="footer">
         <div class="container footer-inner">
             <span>© 2025 ShafTech. All rights reserved.</span>
-            <span>We’d love to hear from you.</span>
+            <span>We transform complexity into clarity.</span>
         </div>
     </footer>
 
