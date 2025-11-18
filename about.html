@@ -2,15 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About – ShafTech & Dakia</title>
+    <title>About – ShafTech</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
 
+    <!-- NAV -->
     <nav class="navbar">
         <div class="container nav-inner">
+
             <a href="index.html" class="brand-area" style="display:flex; align-items:center; text-decoration:none;">
                 <img src="assets/shaftechlogo.png" alt="ShafTech Logo" class="brand-logo">
                 <span class="brand-text">ShafTech</span>
@@ -23,60 +28,111 @@
                 <a href="about.html" class="active">About</a>
                 <a href="contact.html">Contact</a>
             </div>
+
         </div>
     </nav>
 
     <main>
 
-        <!-- HERO -->
+        <!-- ABOUT SECTION -->
         <section class="section">
             <div class="container">
+
                 <div class="section-header">
                     <h1 class="section-title">About ShafTech</h1>
                     <p class="section-subtitle">
-                        ShafTech builds practical, lightweight engineering tools that simplify data processing,
-                        automation, and modernization. Our flagship product, <strong>Dakia</strong>,
-                        is designed to remove complexity from everyday data workflows.
+                        We are a technology engineering company building practical, lightweight solutions
+                        that simplify automation, modernization, and data transformation for businesses.
                     </p>
                 </div>
 
-                <div class="two-col">
+                <p style="max-width:800px; margin:0 auto; text-align:center; margin-bottom:2rem;">
+                    Our flagship product <strong>Dakia</strong> helps automate ETL workflows with simple reusable templates.
+                    Along with building products, we also help companies modernize their systems, migrate their data,
+                    and develop reliable software applications.
+                </p>
 
-                    <!-- LEFT COLUMN -->
-                    <div class="two-col-text">
-                        <h2 class="section-title" style="text-align:left;">Our Mission</h2>
+            </div>
+        </section>
 
-                        <p>
-                            Many organizations still depend on manual Excel operations, inconsistent scripts,
-                            legacy ETL tools, and fragile workflows that are hard to scale or maintain.
-                        </p>
+        <!-- CORE CAPABILITIES -->
+        <section class="section">
+            <div class="container">
 
-                        <p>
-                            At ShafTech, we created <strong>Dakia</strong> to turn these processes into
-                            automated, reliable, and repeatable transformations — without the overhead of
-                            heavy enterprise systems.
-                        </p>
+                <div class="section-header">
+                    <h2 class="section-title">Our Core Capabilities</h2>
+                    <p class="section-subtitle">
+                        The engineering services we provide to help you modernize and automate your business.
+                    </p>
+                </div>
 
-                        <p>
-                            Our experience spans .NET development, data-driven applications, integrations,
-                            and automation pipelines. We turn that experience into tools that feel
-                            <strong>simple on the outside and powerful on the inside</strong>.
-                        </p>
-                    </div>
+                <div class="grid">
 
-                    <!-- RIGHT COLUMN -->
-                    <div class="card">
-                        <div class="card-pill">Dakia in Action</div>
-                        <h3 class="card-title">What Teams Use Dakia For</h3>
+                    <!-- .NET Migration -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-arrow-repeat card-icon-inline"></i>
+                            .NET → .NET Core Migration
+                        </h3>
                         <p class="card-body">
-                            • Automating Excel → JSON → API pipelines<br>
-                            • Generating PDFs from HTML templates<br>
-                            • Cleaning & reshaping complex JSON data<br>
-                            • Replacing fragile in-house scripts<br>
-                            • Building reusable transformation templates<br>
-                            • Modernizing old .NET workflows<br>
+                            Modernizing legacy .NET apps into fast, secure, maintainable .NET Core solutions.
                         </p>
-                    </div>
+                    </article>
+
+                    <!-- ETL Automation -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-diagram-3 card-icon-inline"></i>
+                            ETL Development & Automation
+                        </h3>
+                        <p class="card-body">
+                            Building automated pipelines for extracting, transforming and loading data.
+                        </p>
+                    </article>
+
+                    <!-- Data Migration -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-arrow-up-right-circle card-icon-inline"></i>
+                            Data Migrations
+                        </h3>
+                        <p class="card-body">
+                            Moving data safely across systems, formats, and databases with validation.
+                        </p>
+                    </article>
+
+                    <!-- Transformation Solutions -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-shuffle card-icon-inline"></i>
+                            Data Transformation Solutions
+                        </h3>
+                        <p class="card-body">
+                            Converting structured and unstructured data according to business needs.
+                        </p>
+                    </article>
+
+                    <!-- Custom Software Development -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-window card-icon-inline"></i>
+                            Software Development
+                        </h3>
+                        <p class="card-body">
+                            Building scalable and maintainable applications for enterprise and startups.
+                        </p>
+                    </article>
+
+                    <!-- Integrations -->
+                    <article class="card">
+                        <h3 class="card-title">
+                            <i class="bi bi-plug card-icon-inline"></i>
+                            API & System Integrations
+                        </h3>
+                        <p class="card-body">
+                            Connecting systems through clean API-driven automation and workflows.
+                        </p>
+                    </article>
 
                 </div>
 
